@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 * [jquery-1.9.1.min.js](./CS/WebSite/jquery-1.9.1.min.js) (VB: [jquery-1.9.1.min.js](./VB/WebSite/jquery-1.9.1.min.js))
 <!-- default file list end -->
 # ASPxGridView - How to hide a grid column on the client side without making a round-trip to the server
