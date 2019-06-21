@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxGridView - How to hide a grid column on the client side without making a round-trip to the server
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4580/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to hide a grid column on the client side without making a round-trip to the server.</p><br />
