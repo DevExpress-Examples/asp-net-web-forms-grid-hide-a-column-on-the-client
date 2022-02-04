@@ -3,18 +3,20 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4580)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Grid View for ASP.NET Web Forms - How to hide a grid column at the client
+# Grid View for ASP.NET Web Forms - How to hide a grid column on the client
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/e4580/)**
 <!-- run online end -->
 
-This example demonstrates how to change the visibility of the [Grid View](https://docs.devexpress.com/AspNet/5823/components/grid-view)'s [column](https://docs.devexpress.com/AspNet/3691/components/grid-view/concepts/data-representation-basics/columns) at the client without making a round-trip to the server.
+This example demonstrates how to change the visibility of the [Grid View](https://docs.devexpress.com/AspNet/5823/components/grid-view)'s [columns](https://docs.devexpress.com/AspNet/3691/components/grid-view/concepts/data-representation-basics/columns) on the client without making a round-trip to the server. Check or uncheck the **Unit Price Column** check box to show or hide the **Unit Price** column.
+
+![Hide a grid column on the client](hide-a-column.png)
 
 ## Overview
 
-Follow the steps below to change a [column](https://docs.devexpress.com/AspNet/3691/components/grid-view/concepts/data-representation-basics/columns)'s visibility at the client.
+Follow the steps below to change a [column](https://docs.devexpress.com/AspNet/3691/components/grid-view/concepts/data-representation-basics/columns)'s visibility on the client.
 
-### 1 Apply a custom CSS class to all cells of a column
+### 1 Apply a CSS class to all cells of a column
 
 A column can include the following cells:
 
@@ -25,7 +27,7 @@ A column can include the following cells:
 * [Footer Cell](https://docs.devexpress.com/AspNet/3683/components/grid-view/visual-elements/footer-cell)
 * [Group Footer Cell](https://docs.devexpress.com/AspNet/3815/components/grid-view/visual-elements/group-footer)
 
-Apply your custom CSS style to the [CssClass](https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.style.cssclass?view=netframework-4.8#System_Web_UI_WebControls_Style_CssClass) property of every cell in a column:
+Apply your CSS class to the [CssClass](https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.style.cssclass?view=netframework-4.8#System_Web_UI_WebControls_Style_CssClass) property of every cell in a column:
 
 ```aspx
 <dx:ASPxGridView ID="gvProducts" runat="server" AutoGenerateColumns="False" DataSourceID="dsProducts" KeyFieldName="ProductID">
@@ -43,13 +45,13 @@ Apply your custom CSS style to the [CssClass](https://docs.microsoft.com/en-us/d
 </dx:ASPxGridView>
 ```
 
-### 2 Specify the display property of the custom CSS class
+### 2 Specify the display property of the CSS class
 
-The CSS class's [display](http://www.w3schools.com/cssref/pr_class_display.asp) property specifies the display behavior of an element. Set this property to `none` to hide the column or set it to `table-cell` to display the column.
+The CSS class's [display](http://www.w3schools.com/cssref/pr_class_display.asp) property specifies the display behavior of an element. Set this property to `none` to hide the column or set it to `table-cell` to show the column.
 
-In this example, we use a jQuerry CSS selector to change the [display](http://www.w3schools.com/cssref/pr_class_display.asp) property value.
+This example uses a jQuerry CSS selector to change the [display](http://www.w3schools.com/cssref/pr_class_display.asp) property value.
 
-```js
+```javascript
 <script type="text/javascript">
     function SetUnitPriceColumnVisibility(visible) {
         unitPriceColumnVisible = visible;
