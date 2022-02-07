@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to hide a grid column on the client
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4580/)**
+**[[Run Online]](https://codecentral.devexpress.com/128534364/)**
 <!-- run online end -->
 
 This example demonstrates how to change the visibility of the [Grid View](https://docs.devexpress.com/AspNet/5823/components/grid-view)'s [columns](https://docs.devexpress.com/AspNet/3691/components/grid-view/concepts/data-representation-basics/columns) on the client without making a round trip to the server. Check or uncheck the **Unit Price Column** check box to show or hide the **Unit Price** column.
