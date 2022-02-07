@@ -8,7 +8,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/e4580/)**
 <!-- run online end -->
 
-This example demonstrates how to change the visibility of the [Grid View](https://docs.devexpress.com/AspNet/5823/components/grid-view)'s [columns](https://docs.devexpress.com/AspNet/3691/components/grid-view/concepts/data-representation-basics/columns) on the client without making a round-trip to the server. Check or uncheck the **Unit Price Column** check box to show or hide the **Unit Price** column.
+This example demonstrates how to change the visibility of the [Grid View](https://docs.devexpress.com/AspNet/5823/components/grid-view)'s [columns](https://docs.devexpress.com/AspNet/3691/components/grid-view/concepts/data-representation-basics/columns) on the client without making a round trip to the server. Check or uncheck the **Unit Price Column** check box to show or hide the **Unit Price** column.
 
 ![Hide a grid column on the client](hide-a-column.png)
 
@@ -47,9 +47,9 @@ Apply your CSS class to the [CssClass](https://docs.microsoft.com/en-us/dotnet/a
 
 ### 2 Specify the display property of the CSS class
 
-The CSS class's [display](http://www.w3schools.com/cssref/pr_class_display.asp) property specifies the display behavior of an element. Set this property to `none` to hide the column or set it to `table-cell` to show the column.
+The [display](http://www.w3schools.com/cssref/pr_class_display.asp) property of the CSS class specifies the display behavior of an element. Set this property to `none` to hide the column or set it to `table-cell` to show the column.
 
-This example uses a jQuerry CSS selector to change the [display](http://www.w3schools.com/cssref/pr_class_display.asp) property value.
+This example uses a jQuery CSS selector to change the [display](http://www.w3schools.com/cssref/pr_class_display.asp) property value.
 
 ```javascript
 <script type="text/javascript">
@@ -77,5 +77,5 @@ This example uses a jQuerry CSS selector to change the [display](http://www.w3sc
 
 ## More Examples
 
-- [Grid View for ASP.NET Web Forms - How to display the Grid View in the full screen mode (100% width and height)](https://github.com/DevExpress-Examples/grid-in-full-screen-mode-in-aspnet-web-applications)
+- [Grid View for ASP.NET Web Forms - How to Display the Grid View in Full Screen Mode (100% Width and Height)](https://github.com/DevExpress-Examples/grid-in-full-screen-mode-in-aspnet-web-applications)
 - [Grid View for ASP.NET Web Forms - How to Delete Selected Rows in a Grid](https://github.com/DevExpress-Examples/aspxgridview-delete-selected-rows)
