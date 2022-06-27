@@ -11,7 +11,7 @@
 <!-- default file list end -->
 # ASPxGridView - How to hide a grid column on the client side without making a round-trip to the server
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4580/)**
+**[[Run Online]](https://codecentral.devexpress.com/128534364/)**
 <!-- run online end -->
 
 
