@@ -11,9 +11,6 @@
 * [jquery-1.9.1.min.js](./CS/WebSite/jquery-1.9.1.min.js) (VB: [jquery-1.9.1.min.js](./VB/WebSite/jquery-1.9.1.min.js))
 <!-- default file list end -->
 # ASPxGridView - How to hide a grid column on the client side without making a round-trip to the server
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128534364/)**
-<!-- run online end -->
 
 
 <p>This example demonstrates how to hide a grid column on the client side without making a round-trip to the server.</p><br />
