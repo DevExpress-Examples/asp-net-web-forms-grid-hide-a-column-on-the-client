@@ -25,7 +25,7 @@ A column can include the following cells:
 * [Footer Cell](https://docs.devexpress.com/AspNet/3683/components/grid-view/visual-elements/footer-cell)
 * [Group Footer Cell](https://docs.devexpress.com/AspNet/3815/components/grid-view/visual-elements/group-footer)
 
-Apply your CSS class to the [CssClass](https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.style.cssclass?view=netframework-4.8#System_Web_UI_WebControls_Style_CssClass) property of every cell in a column:
+Apply your CSS class to the [CssClass](https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.style.cssclass) property of every cell in a column:
 
 ```aspx
 <dx:ASPxGridView ID="gvProducts" runat="server" AutoGenerateColumns="False" DataSourceID="dsProducts" KeyFieldName="ProductID">
