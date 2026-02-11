@@ -78,7 +78,7 @@ This example uses a jQuery CSS selector to change the [display](http://www.w3sch
 - [Grid View for ASP.NET Web Forms - How to Display the Grid View in Full Screen Mode (100% Width and Height)](https://github.com/DevExpress-Examples/grid-in-full-screen-mode-in-aspnet-web-applications)
 - [Grid View for ASP.NET Web Forms - How to Delete Selected Rows in a Grid](https://github.com/DevExpress-Examples/aspxgridview-delete-selected-rows)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-hide-a-column-on-the-client&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-hide-a-column-on-the-client&~~~was_helpful=no)
 
